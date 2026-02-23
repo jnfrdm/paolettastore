@@ -1,0 +1,11 @@
+id,nome,slug,prezzo,prezzo_scontato,in_saldo,nuova,path_foto,in_evidenza,descrizione,ordinamento,attiva
+1,Borsa esagono con catenelle,borsa-esagono-catenelle,40,0,0,1,assets/photos/20260218_224500.jpg,1,,1,1
+2,Clucth bag morbida con piega,clucth-bag-morbida-con-piega,85,0,0,1,assets/photos/20260218_224553.jpg,1,,2,1
+3,Borsa fettuccia spalla,borsa-fettuccia-spalla,50,55,1,0,assets/photos/20260218_224618.jpg,0,,10,1
+4,Clutch bag,clutch-bag,35,,0,0,assets/photos/20260218_224707.jpg,0,,20,1
+5,Borsa secchiello,borsa-secchiello,80,,0,0,assets/photos/20260218_224836.jpg,0,,30,1
+6,Borsa effetto intrecciato,borsa-effetto-intrecciato,50,,0,0,assets/photos/20260218_224941.jpg,0,,40,1
+7,Borsa a spalla con anello,borsa-spalla-anello,40,,0,0,assets/photos/20260218_225013.jpg,0,,50,1
+9,Borsetta con catenella,borsetta-con-catenella,30,,0,0,assets/photos/20260218_225545.jpg,0,,70,1
+10,Borsa nodo giapponese,borsa-nodo-giapponese,30,,0,0,assets/photos/20260218_225612.jpg,0,,80,1
+11,Porta cellulare foderato,porta-cellulare-foderato,20,,0,0,assets/photos/20260218_225648.jpg,0,,80,1

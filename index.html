@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Paoletta Store - Borse fatte a mano all'uncinetto</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Source+Sans+3:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="container header-inner">
+      <a href="/" class="logo"><img src="assets/logo/logo_paoletta.png" alt="Paoletta Store"></a>
+      <nav class="nav">
+        <a href="/">Home</a>
+        <a href="#products">Le nostre borse</a>
+        <a href="#blog">Blog</a>
+        <a href="#about">Chi siamo</a>
+        <a href="#contact">Contatti</a>
+      </nav>
+      <button class="cart-btn" aria-label="Apri carrello">
+        <span class="cart-icon">Carrello</span>
+        <span class="cart-count">0</span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="container hero-content">
+      <p class="hero-eyebrow">Fatte a mano con passione</p>
+      <h1 class="hero-title">Borse all'uncinetto</h1>
+      <p class="hero-desc">Borse uniche e artigianali, lavorate all'uncinetto con filati di qualità. Ogni pezzo è creato con cura per accompagnarti in ogni occasione.</p>
+      <a href="#products" class="btn btn-primary">Scopri le borse</a>
+    </div>
+  </section>
+
+  <!-- Story -->
+  <section class="story" id="about">
+    <div class="container story-grid">
+      <div class="story-content">
+        <h2>Ogni borsa racconta una storia, quella delle mani che l'hanno creata.</h2>
+        <p>Creiamo borse all'uncinetto pezzo per pezzo, con filati selezionati e tecniche tramandate. Ogni modello è pensato per essere resistente, comodo e unico: nessuna borsa è uguale all'altra.</p>
+        <a href="#about" class="link-arrow">La nostra storia</a>
+      </div>
+      <div class="story-image">
+        <img src="assets/story/pexels-miriam-alonso-7585273.png" alt="Borsa all'uncinetto beige con chiusura a cordino" class="story-img">
+      </div>
+    </div>
+  </section>
+
+  <!-- Borse: dati caricati da database/borse.csv -->
+  <section class="products-section" id="products">
+    <div class="container">
+      <h2 class="section-title">Borse in evidenza</h2>
+      <div class="products-grid featured" id="borse-in-evidenza" aria-live="polite"></div>
+
+      <h2 class="section-title">Altre borse</h2>
+      <div class="products-grid" id="altre-borse" aria-live="polite"></div>
+    </div>
+  </section>
+
+  <!-- Premium Offer -->
+  <section class="offer">
+    <div class="container offer-inner">
+      <h2 class="offer-title">Offerta speciale</h2>
+      <h3>Acquista 2 borse e ricevi un regalo</h3>
+      <p class="offer-desc">Scegli due borse dalla nostra collezione e ricevi un cordino porta cellulare per polso in omaggio.</p>
+      <a href="#products" class="btn btn-primary">Sfoglia le borse</a>
+    </div>
+  </section>
+
+  <!-- Blog -->
+  <section class="blog-section" id="blog">
+    <div class="container">
+      <p class="blog-eyebrow">Consigli e storie dietro ogni creazione</p>
+      <div class="blog-grid">
+        <article class="blog-card">
+          <a href="#" class="blog-image-wrap">
+            <img src="assets/blog/pexels-castorlystock-3693221.jpg" alt="Borsa all'uncinetto - cura e manutenzione" class="blog-img">
+          </a>
+          <div class="blog-content">
+            <h3><a href="#">Come prendersi cura della borsa all'uncinetto</a></h3>
+            <p>Qualche consiglio pratico per mantenere le tue borse in cotone o filato sintetico belle e resistenti nel tempo.</p>
+            <time datetime="2018-10-09">9 ottobre 2018</time>
+            <a href="#" class="link-arrow">Leggi l'articolo</a>
+          </div>
+        </article>
+        <article class="blog-card">
+          <a href="#" class="blog-image-wrap">
+            <img src="assets/blog/pexels-mara-cotta-6928722-6462889.jpg" alt="Borsa fatta a mano all'uncinetto" class="blog-img">
+          </a>
+          <div class="blog-content">
+            <h3><a href="#">Perché scegliere una borsa fatta a mano</a></h3>
+            <p>L'artigianato unisce qualità, unicità e sostenibilità: ogni pezzo è diverso e pensato per durare.</p>
+            <time datetime="2018-10-09">9 ottobre 2018</time>
+            <a href="#" class="link-arrow">Leggi l'articolo</a>
+          </div>
+        </article>
+        <article class="blog-card">
+          <a href="#" class="blog-image-wrap">
+            <img src="assets/blog/pexels-mara-cotta-6928722-6463348.jpg" alt="Creazione borsa all'uncinetto - dalla matassa al modello" class="blog-img">
+          </a>
+          <div class="blog-content">
+            <h3><a href="#">Dalla matassa alla borsa: come nasce un modello</a></h3>
+            <p>Un viaggio dietro le quinte: dalla scelta del filato al punto giusto, fino al prodotto finito.</p>
+            <time datetime="2018-10-09">9 ottobre 2018</time>
+            <a href="#" class="link-arrow">Leggi l'articolo</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Newsletter -->
+  <section class="newsletter">
+    <div class="container newsletter-inner">
+      <p class="newsletter-eyebrow">Iscriviti per novità e promozioni</p>
+      <h2>Resta aggiornata</h2>
+      <form class="newsletter-form" action="#" method="post">
+        <input type="email" placeholder="la-tua-email@esempio.it" required>
+        <button type="submit" class="btn btn-primary">Iscriviti</button>
+      </form>
+      <p class="form-note">Grazie! La tua iscrizione è stata ricevuta.</p>
+      <p class="form-note error hidden">Si è verificato un errore. Riprova più tardi.</p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer" id="contact">
+    <div class="container footer-inner">
+      <p class="footer-tagline">Borse fatte a mano all'uncinetto, con cura e passione. Per chi ama l'artigianato e l'unicità.</p>
+      <p class="footer-copy">Paoletta Store</p>
+      <nav class="footer-nav">
+        <span class="footer-nav-label">Menu</span>
+        <a href="/">Home</a>
+        <a href="#products">Le nostre borse</a>
+        <a href="#about">Chi siamo</a>
+        <a href="#contact">Contatti</a>
+      </nav>
+      <div class="footer-social">
+        <span class="footer-nav-label">Seguici</span>
+        <a href="https://facebook.com" target="_blank" rel="noopener">Facebook</a>
+        <a href="https://instagram.com" target="_blank" rel="noopener">Instagram</a>
+        <a href="https://pinterest.com" target="_blank" rel="noopener">Pinterest</a>
+      </div>
+      <div class="footer-contact">
+        <span class="footer-nav-label">Contatti</span>
+        <p>Siamo a disposizione per qualsiasi domanda</p>
+        <a href="mailto:info@paolettastore.it">info@paolettastore.it</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
