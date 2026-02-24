@@ -164,11 +164,11 @@ img {
 }
 
 .hero {
-  background-image: url("assets/blog/pexels-castorlystock-3693221.jpg");
+  background-image: url("assets/hero/hero_3.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: rgba(255, 255, 255, 0.7);
+  background-color: rgba(255, 255, 255, 0.65);
   background-blend-mode: lighten;
 
   min-height: 50vh;
