@@ -1,4 +1,7 @@
-/* CoffeeStyle clone - clean minimal ecommerce */
+
+body, html {
+  height: 100%;
+}
 
 :root {
   --color-bg: #faf9f7;
@@ -129,12 +132,12 @@ img {
   color: var(--color-text-muted);
 }
 
-/* Hero */
+/* 
 .hero {
   padding: var(--space-3xl) 0;
   text-align: center;
   background: var(--color-bg-alt);
-}
+} */
 
 .hero-eyebrow {
   font-size: 0.85rem;
@@ -158,6 +161,21 @@ img {
   margin: 0 auto var(--space-xl);
   font-size: 1.1rem;
   color: var(--color-text-muted);
+}
+
+.hero {
+  background-image: url("assets/blog/pexels-castorlystock-3693221.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgba(255, 255, 255, 0.7);
+  background-blend-mode: lighten;
+
+  min-height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 
 .btn {
